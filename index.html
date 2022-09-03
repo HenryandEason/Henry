@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编程作业第一讲</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            background-color: #eee;
+        }
+        *{
+            border: 1px solid;
+        }
+        .flex{
+            display: flex
+        }
+        .baiSe{
+            background-color: white;
+        }
+        .flex1{
+            flex:1;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .row{
+            flex-direction: row;
+        }
+        .hongSe{
+            background-color: rgb(200, 5, 5)
+        }
+        .lanSe{
+            background-color: aqua;
+        }
+     </style>
+</head>
+<body class="flex">
+    <div style="width:200px", class="baiSe">注册窗口 登录窗口</div>
+    <div class="flex1 flex column">
+        <div style="height: 100px" class="baiSe">大家好, 这里是Henry的网站, 欢迎大家在这里学习历史知识</div>
+            <div class="flex1 flex">
+                <div style="flex:1", class="flex row">
+                    <div style="flex:3", class="hongSe">
+                        <div style="height: 50px; border-width: 2px;">萨拉热窝事件 一战导火索</div>
+                        <div style="height: 50px; border-width: 2px;">奥，俄，德，法参战，战争动员开始</div>
+                        <div style="height: 50px; border-width: 2px;">施里芬计划，德国绕道比利时进攻法国，引发英国参战</div>
+                        <div style="height: 50px; border-width: 2px;">马恩河会战，被誉为马恩河奇迹，英法联军击败德军</div>
+                        <div style="height: 50px; border-width: 2px;">加利西亚战役，奥军被俄军击败</div>
+                        <div style="height: 50px; border-width: 2px;">“奔向大海”，堑壕战的开始</div>
+                        <div style="height: 50px; border-width: 2px;">第一次香槟攻势，西战场陷入僵局</div>
+                        <div style="height: 50px; border-width: 2px;">圣诞节停火，人性的光辉</div>
+                        <div style="height: 50px; border-width: 2px;">不必要的卢斯会战</div>
+                        <div style="height: 50px; border-width: 2px;">“向东线进攻”，德军主力直扑东线，攻占波兰</div>
+                        <div style="height: 50px; border-width: 2px;">达达尼尔战役，一战中的失败登陆战</div>
+                        <div style="height: 50px; border-width: 2px;">凡尔登会战，一战转折点，法军顽强守住凡尔登</div>
+                        <div style="height: 50px; border-width: 2px;">索姆河战役，一战最惨烈的战役，缓解了凡尔登方向的压力</div>
+                        <div style="height: 50px; border-width: 2px;">日德兰海战，一战规模最大的海战</div>
+                        <div style="height: 50px; border-width: 2px;">夏季攻势，俄军击溃奥匈帝国，俄军最成功的攻势</div>
+                        <div style="height: 50px; border-width: 2px;"></div>
+                    </div>
+                    <div style="flex:3", class="lanSe"></div>
+                <div style="flex:2", class="flex column"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
