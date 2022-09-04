@@ -1,0 +1,29 @@
+body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+      * {
+        border: 1px solid;
+      }
+      .flex {
+        display: flex;
+      }
+      .baiSe {
+        background-color: white;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .row {
+        flex-direction: row;
+      }
+      .hongSe {
+        background-color: rgb(200, 5, 5);
+      }
+      .lanSe {
+        background-color: aqua;
+      }

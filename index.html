@@ -1,70 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>编程作业第一讲</title>
     <style>
-        body{
-            margin: 0;
-            height: 100vh;
-            background-color: #eee;
-        }
-        *{
-            border: 1px solid;
-        }
-        .flex{
-            display: flex
-        }
-        .baiSe{
-            background-color: white;
-        }
-        .flex1{
-            flex:1;
-        }
-        .column{
-            flex-direction: column;
-        }
-        .row{
-            flex-direction: row;
-        }
-        .hongSe{
-            background-color: rgb(200, 5, 5)
-        }
-        .lanSe{
-            background-color: aqua;
-        }
-     </style>
-</head>
-<body class="flex">
-    <div style="width:200px", class="baiSe">注册窗口 登录窗口</div>
-    <div class="flex1 flex column">
-        <div style="height: 100px" class="baiSe">大家好, 这里是Henry的网站, 欢迎大家在这里学习历史知识</div>
-            <div class="flex1 flex">
-                <div style="flex:1", class="flex row">
-                    <div style="flex:3", class="hongSe">
-                        <div style="height: 50px; border-width: 2px;">萨拉热窝事件 一战导火索</div>
-                        <div style="height: 50px; border-width: 2px;">奥，俄，德，法参战，战争动员开始</div>
-                        <div style="height: 50px; border-width: 2px;">施里芬计划，德国绕道比利时进攻法国，引发英国参战</div>
-                        <div style="height: 50px; border-width: 2px;">马恩河会战，被誉为马恩河奇迹，英法联军击败德军</div>
-                        <div style="height: 50px; border-width: 2px;">加利西亚战役，奥军被俄军击败</div>
-                        <div style="height: 50px; border-width: 2px;">“奔向大海”，堑壕战的开始</div>
-                        <div style="height: 50px; border-width: 2px;">第一次香槟攻势，西战场陷入僵局</div>
-                        <div style="height: 50px; border-width: 2px;">圣诞节停火，人性的光辉</div>
-                        <div style="height: 50px; border-width: 2px;">不必要的卢斯会战</div>
-                        <div style="height: 50px; border-width: 2px;">“向东线进攻”，德军主力直扑东线，攻占波兰</div>
-                        <div style="height: 50px; border-width: 2px;">达达尼尔战役，一战中的失败登陆战</div>
-                        <div style="height: 50px; border-width: 2px;">凡尔登会战，一战转折点，法军顽强守住凡尔登</div>
-                        <div style="height: 50px; border-width: 2px;">索姆河战役，一战最惨烈的战役，缓解了凡尔登方向的压力</div>
-                        <div style="height: 50px; border-width: 2px;">日德兰海战，一战规模最大的海战</div>
-                        <div style="height: 50px; border-width: 2px;">夏季攻势，俄军击溃奥匈帝国，俄军最成功的攻势</div>
-                        <div style="height: 50px; border-width: 2px;"></div>
-                    </div>
-                    <div style="flex:3", class="lanSe"></div>
-                <div style="flex:2", class="flex column"></div>
-            </div>
-        </div>
+      .a{
+        text-decoration:dotted;
+      }
+    </style>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body class="flex">
+    <div style="width: 200px;" , class="baiSe">注册窗口 登录窗口
+    <img src="./pictures/5ab5c9ea15ce36d398b9ba193af33a87e950b15d.webp" alt="smile" style="width: 200px; height: 150px;">
+    <img src="pictures/R-C.jpg" alt="smile" style="width: 200px; height: 100px;">
+    <img src="pictures/battlefield1_launch.webp" alt="smile" style="width: 200px; height: 125px;">
+
     </div>
-</body>
+    <div class="flex1 flex column">
+      <div style="height: 100px" class="baiSe">
+        大家好, 这里是Henry的网站, 欢迎大家在这里学习历史知识</div>
+      <div class="flex1 flex">
+        <div style="flex: 1" , class="flex row">
+          <div style="flex: 3" , class="hongSe">
+            <div style="height: 50px; border-width: 2px">
+              <a class="a", href="https://baike.baidu.com/item/%E8%90%A8%E6%8B%89%E7%83%AD%E7%AA%9D%E4%BA%8B%E4%BB%B6/1901666">萨拉热窝事件</a> 一战导火索
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              奥，俄，德，法参战，战争动员开始
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              <a href="https://baike.baidu.com/item/%E6%96%BD%E9%87%8C%E8%8A%AC%E8%AE%A1%E5%88%92/10970733">施里芬计划</a>德国绕道比利时进攻法国，引发英国参战
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              <a href="https://baike.baidu.com/item/%E9%A9%AC%E6%81%A9%E6%B2%B3%E4%BC%9A%E6%88%98?fromModule=lemma_search-box">马恩河会战</a>，被誉为马恩河奇迹，英法联军击败德军
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              加利西亚战役，奥军被俄军击败
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              “奔向大海”，堑壕战的开始
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              香槟攻势，西战场陷入僵局
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              圣诞节停火，人性的光辉
+            </div>
+            <div style="height: 50px; border-width: 2px">不必要的卢斯会战</div>
+            <div style="height: 50px; border-width: 2px">
+              “向东线进攻”，德军主力直扑东线，攻占波兰
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              达达尼尔战役，一战中的失败登陆战
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              凡尔登会战，一战转折点，法军顽强守住凡尔登
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              索姆河战役，一战最惨烈的战役，缓解了凡尔登方向的压力
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              日德兰海战，一战规模最大的海战
+            </div>
+            <div style="height: 50px; border-width: 2px">
+              夏季攻势，俄军击溃奥匈帝国，俄军最成功的攻势
+            </div>
+            <div style="height: 50px; border-width: 2px">VIVA LA FRANCE, THEY SHALL NOT PASS</div>
+            <div style="height: 50px; border-width: 2px"></div>
+            <div style="height: 50px; border-width: 2px"></div>
+            <div style="height: 50px; border-width: 2px"></div>
+            <div style="height: 50px; border-width: 2px"></div>
+            <div style="height: 50px; border-width: 2px"></div>
+            <div style="height: 50px; border-width: 2px"></div>
+            <div style="height: 50px; border-width: 2px"></div>
+          </div>
+          <div style="flex: 3" , class="lanSe">
+          <div style="height: 175px; border-width: 2px;" class="flex column">
+          <a style="text-align: center;" href="https://baike.baidu.com/item/%E9%A9%AC%E6%81%A9%E6%B2%B3%E4%BC%9A%E6%88%98?fromModule=lemma_search-box">马恩河战役</a>
+          <p style="text-align: center; border-width: 3px;"><img src="https://ts1.cn.mm.bing.net/th/id/R-C.c69f17f21acab211f6e14679678d92b9?rik=rCi9J3nQUFWtpw&riu=http%3a%2f%2fi3.sinaimg.cn%2fhistory%2fbk%2fyzs%2f2014-06-19%2fU2483P1488T1D93489F276DT20140619163019.jpg&ehk=LYM7DJHxrSBfKEefZbhS7VdpkBTJtF6HHoNJ%2b6AXx58%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="" style="height: 125px; width: 250px;"></p>
+          </div>
+          <div style="height: 175px; border-width: 2px;" class="flex column">
+          <a style="text-align: center;" href="https://baike.baidu.com/item/%E5%87%A1%E5%B0%94%E7%99%BB%E6%88%98%E5%BD%B9/410561?fromModule=lemma_search-box">凡尔登战役</a>
+          <p style="text-align: center; border-width: 3px;"><img src="https://n.sinaimg.cn/sinakd10113/220/w640h380/20201204/78a8-ketnnaq9781469.jpg" alt="" style="width: 250px; height: 125px;"></p>
+          </div>
+          <div style="height: 200px; border-width: 2px;"></div>
+          <div style="height: 200px; border-width: 2px;"></div>
+          <div style="height: 200px; border-width: 2px;"></div>
+          </div>
+          <div style="flex: 2" , class="flex column"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
